@@ -1,6 +1,6 @@
 {
   "name": "aburuya-stripe-server",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,8 +8,19 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "10.0.3",
+    "@emotion/core": "^10.0.27",
+    "@emotion/styled": "^10.0.27",
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.11.0",
+    "axios": "^0.21.0",
+    "next": "latest",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-confetti": "^5.0.1",
+    "react-dom": "17.0.1",
+    "stripe": "^8.15.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^8.2.0"
   }
 }
