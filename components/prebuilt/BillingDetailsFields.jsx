@@ -14,7 +14,7 @@ const BillingDetailsFields = () => {
         name="email"
         label="Email"
         type="email"
-        placeholder="jane.doe@example.com"
+        placeholder="your.email@example.com"
         required
       />
       <FormField
