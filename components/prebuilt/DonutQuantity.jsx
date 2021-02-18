@@ -9,8 +9,8 @@ const Input = styled.input`
   text-align: center;
   outline: none;
   background: transparent;
-  border: 1px solid #819efc;
-  color: #fff;
+  border: 1px solid #524D4D;
+  color: #524D4D;
   height: 40px;
   user-select: none;
 `;
@@ -24,10 +24,10 @@ const Button = styled.span`
   text-align: center;
   font-weight: bold;
   cursor: pointer;
-  background-color: #f6a4eb;
+  background-color: #524D4D;
   user-select: none;
   box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08),
-    inset 0 1px 0 #ffb9f6;
+    inset 0 1px 0 #FF7F50;
 `;
 
 const DecrementButton = styled(Button)`
