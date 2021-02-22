@@ -4,10 +4,6 @@ import {Container, Image, Segment} from 'semantic-ui-react'
 
 const Home = () => {
 
-
-
-
-
   return(
     
     <div className='home-page'>
@@ -16,6 +12,7 @@ const Home = () => {
      <Segment  vertical textAlign='center'>
        <Container text>
        <h1>ASSEMBLY</h1>
+       <p></p>
        </Container>
      </Segment>
       <Container>
@@ -23,11 +20,11 @@ const Home = () => {
       <Image 
                 fluid
             
-                src={home}
+               
                  />
           </Segment>
         </Container>
-        <Footer />
+     
        
     </div>
   )
