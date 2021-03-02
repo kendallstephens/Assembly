@@ -22,9 +22,8 @@ const MainPage = props => {
   const remDonut = () => setNumDonuts(num => Math.max(1, num - 1));
 
   return (
-    //   <Home />  
+ 
     <div className={styles.container}>
-    <Home />  
     <Head>
       <title>Nextjs | Next-Auth</title>
       <link rel="icon" href="/favicon.ico" />
@@ -39,10 +38,11 @@ const MainPage = props => {
         </>}
         {!session &&
           <>
-            <p className={styles.title}>Please Sign in</p>
+            {/* <p className={styles.title}>Please Sign in</p> */}
                  
 </>
         }
+         <Home /> 
       </div>
     </main>
   </div>

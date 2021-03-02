@@ -16,7 +16,7 @@ a {
 }
   .header {
     display: flex;
-    align-items: center;
+    align-items: right;
     justify-content: space-between;
     background-color: #fff;
     color: #fff;
@@ -40,18 +40,18 @@ a {
   cursor: pointer;
   display: -webkit-box;
   display: flex;
-  align-self: center;
+  align-self: right;
   font-size: 1.2rem;
   line-height: 1;
   margin: 20px;
   font-weight: 700;
   padding: 1.2rem;
     width: 14rem;
-    text-align: center;
+    text-align: right;
     display: flex;
-    align-items: center;
-    justify-content: center;
-  text-align: center;
+    align-items: right;
+    justify-content: right;
+  text-align: right;
   font-family: inherit;
   user-select: none;
   color: #fff;
