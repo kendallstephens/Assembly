@@ -15,7 +15,8 @@ const Home = () => {
      <Segment  vertical textAlign='center'>
        <Container text>
        <h1>ASSEMBLY</h1>
-       <p></p>
+       <p><i>noun</i></p>
+       <p>A group of people gathered together in one place for a common purpose.</p>
        </Container>
      </Segment>
       <Container>
