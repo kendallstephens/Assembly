@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { useSession, signIn, signOut } from 'next-auth/client'
-import {Grid, Segment, Button} from 'semantic-ui-react'
+import {Grid, Segment, Button, Icon} from 'semantic-ui-react'
 export default function Header() {
 
   const [session] = useSession();
@@ -15,12 +15,9 @@ export default function Header() {
     }
   return (
     <div className='header'>
-      <Grid textAlign='center' verticalAlign='right'>
-        {/* <Link href='/'>
-        <a className='logo'></a>
-        </Link> */}
-        <Grid.Column >
-          <Button>
+      <Grid >
+        <Grid.Column align-items='flex-end'>
+          <Button >
             {session && <a href="#" onClick={handleSignout} className="btn-signin">Sign out</a>  } 
             {!session && <a href="#" onClick={handleSignin}  className="btn-signin">Sign in</a>  } 
            </Button>

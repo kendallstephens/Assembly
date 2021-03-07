@@ -1,5 +1,8 @@
 import React from 'react'
 import {Container, Image, Segment} from 'semantic-ui-react'
+// import Image from 'next/image'
+import NegroniImage from '../images/Negroni.jpeg'
+
 
 
 const Home = () => {
@@ -17,11 +20,12 @@ const Home = () => {
      </Segment>
       <Container>
       <Segment  vertical textAlign='center'>
-      <Image 
-                fluid
-            
+      <Image
+              fluid
+              src={NegroniImage}
+              alt="negroni"
+      />
                
-                 />
           </Segment>
         </Container>
      
