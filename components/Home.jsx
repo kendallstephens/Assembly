@@ -25,6 +25,7 @@ const Home = () => {
               fluid
               src={NegroniImage}
               alt="negroni"
+              layout = 'fill'
       />
                
           </Segment>

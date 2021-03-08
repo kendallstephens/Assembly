@@ -6,6 +6,7 @@ import Header from '../components/Header'
 import styles from '../styles/Home.module.css'
 import {useSession} from 'next-auth/client'
 
+
 import Home from '../components/Home'
 import Layout from "../components/Layout";
 import Row from "../components/prebuilt/Row";
@@ -28,12 +29,13 @@ const MainPage = props => {
       <title>Nextjs | Next-Auth</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
+    
     <Header />
     <main className={styles.main}>
       <h1 className={styles.title}></h1>
       <div className={styles.user}>
         {loading && <div className={styles.title}>Loading...</div>}
-        {session && <> <p style={{ marginBottom: '10px' }}> Hi, {session.user.name ?? session.user.email}!</p> <br />
+        {session && <> <p style={{ marginBottom: '10px' }}> Hi, <span class="wave">👋 </span>{session.user.name ?? session.user.email}!</p> <br />
           {/* <img src={session.user.image} alt="" className={styles.avatar} /> */}
         </>}
         {!session &&
