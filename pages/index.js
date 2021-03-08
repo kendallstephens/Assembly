@@ -33,8 +33,8 @@ const MainPage = props => {
       <h1 className={styles.title}></h1>
       <div className={styles.user}>
         {loading && <div className={styles.title}>Loading...</div>}
-        {session && <> <p style={{ marginBottom: '10px' }}> Welcome, {session.user.name ?? session.user.email}</p> <br />
-          <img src={session.user.image} alt="" className={styles.avatar} />
+        {session && <> <p style={{ marginBottom: '10px' }}> Hi, {session.user.name ?? session.user.email}!</p> <br />
+          {/* <img src={session.user.image} alt="" className={styles.avatar} /> */}
         </>}
         {!session &&
           <>
