@@ -14,6 +14,8 @@ import DonutShop from "../components/prebuilt/DonutShop";
 import CheckoutForm from "../components/CheckoutForm";
 import getDonutPrice from "../utils/get-donut-price";
 
+import CocktailKitCards from '../components/CocktailKitCards'
+
 
 const MainPage = props => {
   const [numDonuts, setNumDonuts] = useState(1);
@@ -44,6 +46,7 @@ const MainPage = props => {
                  
 </>
         }
+        {/* <CocktailKitCards /> */}
          <Home /> 
       </div>
     </main>
@@ -51,24 +54,24 @@ const MainPage = props => {
   
    
    
-    // <Layout title="Donut Shop">
+  //   <Layout title="Donut Shop">
     
      
     
        
     
-    //   <Row>
-    //     <DonutShop
-    //       onAddDonut={addDonut}
-    //       onRemoveDonut={remDonut}
-    //       numDonuts={numDonuts}
-    //     />
-    //   </Row>
-    //   <CheckoutForm
-    //     price={getDonutPrice(numDonuts)}
-    //     onSuccessfulCheckout={() => Router.push("/success")}
-    //   />
-    // </Layout>
+  //     <Row>
+  //       <DonutShop
+  //         onAddDonut={addDonut}
+  //         onRemoveDonut={remDonut}
+  //         numDonuts={numDonuts}
+  //       />
+  //     </Row>
+  //     <CheckoutForm
+  //       price={getDonutPrice(numDonuts)}
+  //       onSuccessfulCheckout={() => Router.push("/success")}
+  //     />
+  //   </Layout>
   );
 };
 
