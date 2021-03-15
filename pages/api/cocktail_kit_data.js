@@ -13,8 +13,15 @@ const cocktailKits = [
         ingredients: 'Gin, Noilly Prat dry vermouth, Lemon' ,
         description: 'Even if you’re thinking to yourself, but I already know how to make a martini, you may want to keep reading anyway. This martini recipe is proof that sometimes the simplest things are actually the hardest to master. It might only need three ingredients—gin, vermouth, and a lemon twist—but fewer variables means that each one is very important to the final result. Technique is everything here.',
         image: 'https://images.unsplash.com/photo-1575023782549-62ca0d244b39?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fG1hcnRpbml8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'  
-
-    }
+    }, 
+    {
+        name: 'Avocado Margarita',
+        price: 60,
+        ingredients: 'Avocado, Lime, Tequila' ,
+        description: 'Inspired by the quintessential version served at Curra’s Grill in Austin. Trust us, it’s good!',
+        image: 'https://images.unsplash.com/photo-1541976076758-347942db1975?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8bWFyZ2FyaXRhfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'  
+    }, 
+    
 ]
 
 export default cocktailKits
