@@ -8,6 +8,7 @@ import {useSession} from 'next-auth/client'
 
 
 import Home from '../components/Home'
+import Checkout from '../components/Checkout'
 import Layout from "../components/Layout";
 import Row from "../components/prebuilt/Row";
 import DonutShop from "../components/prebuilt/DonutShop";
@@ -47,31 +48,12 @@ const MainPage = props => {
 </>
         }
         {/* <CocktailKitCards /> */}
+        
          <Home /> 
+         <Checkout />
       </div>
     </main>
   </div>
-  
-   
-   
-  //   <Layout title="Donut Shop">
-    
-     
-    
-       
-    
-  //     <Row>
-  //       <DonutShop
-  //         onAddDonut={addDonut}
-  //         onRemoveDonut={remDonut}
-  //         numDonuts={numDonuts}
-  //       />
-  //     </Row>
-  //     <CheckoutForm
-  //       price={getDonutPrice(numDonuts)}
-  //       onSuccessfulCheckout={() => Router.push("/success")}
-  //     />
-  //   </Layout>
   );
 };
 
