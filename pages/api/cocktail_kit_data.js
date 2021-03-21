@@ -31,18 +31,24 @@ const cocktailKits = [
     {
         name: 'Bloody mary',
         price: 60,
-        ingredients: 'Horseradish,  Hot Sauce, Vodka' ,
+        ingredients: 'Horseradish, Hot Sauce, Vodka' ,
         description: 'Our favorite Bloody Mary is an instant classic. Great-quality tomato juice, bright lemon juice, savory Worcestershire, and a tangy hot sauce deliver on all fronts.',
         image: 'https://images.unsplash.com/photo-1576874240748-795e3bfa4c5a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Ymxvb2R5JTIwbWFyeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'  
     }, 
     {
         name: 'Mai Tai',
         price: 60,
-        ingredients: 'Rum,  Orgeat Syrup, Lime' ,
+        ingredients: 'Rum, Orgeat Syrup, Lime' ,
         description: 'There are raging debates about the invention of and the proper recipe for this drink among tiki connoisseurs. The more accepted versions are granted to Victor J. Bergeron, the irascible, wooden-legged “Trader Vic,” from his eponymous restaurant bar in Oakland, Calif., in the ’40s. Contrary to what you might think, the mai tai is actually just a rum sour, employing orgeat alongside Curaçao or triple sec as the sweetener, and using two rums to add complexity. The rest is just lime juice, and that’s it. No coconut, no passion fruit, pineapple, mango or orange juice. No umbrellas. It’s a relatively simple drink, but as such, each element has to be of the utmost quality; great rums, fresh lime juice and prefab orgeat syrup equal disappointment. But when concocted with homemade orgeat, all the tumblers click. The rums, the lime, the orange aromatics and the heft of the almond all play in stupendous balance.',
         image: 'https://cdn.vox-cdn.com/thumbor/rkkM4gqB1fTEUHmWkK3CDX4SJmY=/0x0:960x640/1920x0/filters:focal(0x0:960x640):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/7420499/smuggers-mai-tai.0.jpg'  
     }, 
-    
+    {
+        name: 'Painkiller',
+        price: 60,
+        ingredients: 'Rum, Pineapple Juice, Coconut' ,
+        description: 'Though Pusser’s Rum trademarked the recipe in the early 1980s, the classic Painkiller formula was actually created in 1971 by Daphne Henderson, the owner of a tiny, six-seat swim-up bar called the Soggy Dollar Bar in the British Virgin Islands. Henderson kept the exact recipe for her sweet concoction a secret, but Pusser’s founder Charles Tobias (who begged Henderson for the recipe to no avail) was able to successfully deconstruct the drink. In fact, the bar’s patrons supposedly preferred his less sweet, so-called “superior” version. We like our Painkillers even boozier than Tobias’s take, so we dialed back the juice and increased the rum. For us, it’s the seriously superior Painkiller',
+        image: 'https://images.unsplash.com/photo-1596392301391-e8622b210bd4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cGFpbmtpbGxlciUyMGNvY2t0YWlsfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'  
+    }, 
     
     
 ]
