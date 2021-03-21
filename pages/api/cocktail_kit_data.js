@@ -49,6 +49,14 @@ const cocktailKits = [
         description: 'Though Pusser’s Rum trademarked the recipe in the early 1980s, the classic Painkiller formula was actually created in 1971 by Daphne Henderson, the owner of a tiny, six-seat swim-up bar called the Soggy Dollar Bar in the British Virgin Islands. Henderson kept the exact recipe for her sweet concoction a secret, but Pusser’s founder Charles Tobias (who begged Henderson for the recipe to no avail) was able to successfully deconstruct the drink. In fact, the bar’s patrons supposedly preferred his less sweet, so-called “superior” version. We like our Painkillers even boozier than Tobias’s take, so we dialed back the juice and increased the rum. For us, it’s the seriously superior Painkiller',
         image: 'https://images.unsplash.com/photo-1596392301391-e8622b210bd4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cGFpbmtpbGxlciUyMGNvY2t0YWlsfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'  
     }, 
+    {
+        name: 'Gin & Tonic',
+        price: 60,
+        ingredients: 'Gin, Tonic, Thyme' ,
+        description: 'Chrissy Tracey shares her spin on a classic G&T by creating a deep herb-infused simple syrup and garnishing it with a charred lemon slice, pomegranate arils, sage, rosemary, and thyme',
+        image: 'https://images.unsplash.com/photo-1573459312070-c30bbfeaee33?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTR8fGdpbiUyMGFuZCUyMHRvbmljJTIwY29ja3RhaWx8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'  
+    }, 
+    
     
     
 ]
