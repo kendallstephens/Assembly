@@ -35,6 +35,14 @@ const cocktailKits = [
         description: 'Our favorite Bloody Mary is an instant classic. Great-quality tomato juice, bright lemon juice, savory Worcestershire, and a tangy hot sauce deliver on all fronts.',
         image: 'https://images.unsplash.com/photo-1576874240748-795e3bfa4c5a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Ymxvb2R5JTIwbWFyeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'  
     }, 
+    {
+        name: 'Mai Tai',
+        price: 60,
+        ingredients: 'Rum,  Orgeat Syrup, Lime' ,
+        description: 'There are raging debates about the invention of and the proper recipe for this drink among tiki connoisseurs. The more accepted versions are granted to Victor J. Bergeron, the irascible, wooden-legged “Trader Vic,” from his eponymous restaurant bar in Oakland, Calif., in the ’40s. Contrary to what you might think, the mai tai is actually just a rum sour, employing orgeat alongside Curaçao or triple sec as the sweetener, and using two rums to add complexity. The rest is just lime juice, and that’s it. No coconut, no passion fruit, pineapple, mango or orange juice. No umbrellas. It’s a relatively simple drink, but as such, each element has to be of the utmost quality; great rums, fresh lime juice and prefab orgeat syrup equal disappointment. But when concocted with homemade orgeat, all the tumblers click. The rums, the lime, the orange aromatics and the heft of the almond all play in stupendous balance.',
+        image: 'https://cdn.vox-cdn.com/thumbor/rkkM4gqB1fTEUHmWkK3CDX4SJmY=/0x0:960x640/1920x0/filters:focal(0x0:960x640):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/7420499/smuggers-mai-tai.0.jpg'  
+    }, 
+    
     
     
 ]
