@@ -26,14 +26,16 @@ const MainPage = props => {
   const remDonut = () => setNumDonuts(num => Math.max(1, num - 1));
 
   return (
+    <div>
  
-    <div className={styles.container}>
-    <Head>
+    {/* // <div className={styles.container}> */}
+    {/* <Head>
       <title>Nextjs | Next-Auth</title>
       <link rel="icon" href="/favicon.ico" />
-    </Head>
-    
-    <Header />
+    </Head> */}
+    <div className={styles.header}>
+    <Header/>
+    </div>
     <main className={styles.main}>
       <h1 className={styles.title}></h1>
       <div className={styles.user}>
@@ -50,7 +52,7 @@ const MainPage = props => {
         {/* <CocktailKitCards /> */}
         
          <Home /> 
-         <Checkout />
+         {/* <Checkout /> */}
       </div>
     </main>
   </div>

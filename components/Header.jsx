@@ -15,14 +15,14 @@ export default function Header() {
     }
   return (
     <div className='header'>
-      <Grid >
-        <Grid.Column align-items='flex-end'>
-          <Button >
+      <Grid > 
+        <Grid.Column > 
+          <Button animated>
             {session && <a href="#" onClick={handleSignout} className="btn-signin">Sign out</a>  } 
-            {!session && <a href="#" onClick={handleSignin}  className="btn-signin">Sign in</a>  } 
+            {!session && <a href="#" onClick={handleSignin}  className="btn-signin"> <Button.Content visible>Sign In</Button.Content></a>  } 
            </Button>
-        </Grid.Column>
-      </Grid>
+         </Grid.Column>
+      </Grid> 
     </div>
   )
 }
