@@ -24,10 +24,18 @@ const cocktailKits = [
     {
         name: 'Amaro Cocktail',
         price: 60,
-        ingredients: 'Rye,  Amaro Montenegro, Egg White' ,
+        ingredients: 'Rye, Amaro Montenegro, Egg White' ,
         description: 'Traditionally, orgeat is almond syrup, but Joseph Stinchcomb, beverage director at Saint Leo in Oxford, MS, has made it with everything from walnuts to pistachios. “It gives a beautiful toasted nut flavor to a cocktail,” he says. “Here I used pecans because they remind me of the family pecan tree at my grandparents’ house in Fayetteville, GA. Roasted pecans. Warm baking spices. Citrusy, caramelly Amaro Montenegro. A bit of spicy rye whiskey. They all work well together to create a cocktail that feels toasty. That’s what I love in a winter drink.” A second shake with an egg white creates a velvety texture and foamy top.',
         image: 'https://assets.bonappetit.com/photos/5fb7e7445d6dedbf765ba756/1:1/w_2560%2Cc_limit/1220-drinks-Amaro-Cocktail.jpg'  
     }, 
+    {
+        name: 'Bloody mary',
+        price: 60,
+        ingredients: 'Horseradish,  Hot Sauce, Vodka' ,
+        description: 'Our favorite Bloody Mary is an instant classic. Great-quality tomato juice, bright lemon juice, savory Worcestershire, and a tangy hot sauce deliver on all fronts.',
+        image: 'https://images.unsplash.com/photo-1576874240748-795e3bfa4c5a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Ymxvb2R5JTIwbWFyeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'  
+    }, 
+    
     
 ]
 
