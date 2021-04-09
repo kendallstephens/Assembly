@@ -4,12 +4,14 @@ import Row from "../components/prebuilt/Row";
 import DonutShop from "../components/prebuilt/DonutShop";
 import CheckoutForm from "../components/CheckoutForm";
 import getDonutPrice from "../utils/get-donut-price";
+import { useRouter } from 'next/router'
 
 
 const Checkout = props => {
     const [numDonuts, setNumDonuts] = useState(1);
     const addDonut = () => setNumDonuts(num => Math.min(12, num + 1));
     const remDonut = () => setNumDonuts(num => Math.max(1, num - 1));
+    const router = useRouter()
   
     return (       
       <Layout title="Donut Shop"> 
@@ -22,7 +24,7 @@ const Checkout = props => {
         </Row>
         <CheckoutForm
           price={getDonutPrice(numDonuts)}
-          onSuccessfulCheckout={() => Router.push("/success")}
+          onSuccessfulCheckout={() => router.push("/success")}
         />
       </Layout> 
      

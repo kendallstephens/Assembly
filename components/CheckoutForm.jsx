@@ -23,7 +23,7 @@ const CheckoutForm = ({ price, onSuccessfulCheckout }) => {
   const [isProcessing, setProcessingTo] = useState(false);
   const [checkoutError, setCheckoutError] = useState();
 
-  const stripe = useStripe()
+  const stripe = useStripe() 
   const elements = useElements()
 
   const handleFormSubmit = async ev => {
@@ -47,6 +47,7 @@ const CheckoutForm = ({ price, onSuccessfulCheckout }) => {
     })
 
     const cardElement = elements.getElement(CardElement)
+    
 
     const paymentMethodReq = await stripe.createPaymentMethod({
       type: 'card',
