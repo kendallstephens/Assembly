@@ -1,24 +1,27 @@
 import React from 'react'
-import {Container, Image, Segment} from 'semantic-ui-react'
+import {Button, Image, Segment} from 'semantic-ui-react'
+import cocktailKitsCards from '../pages/CocktailKitsCards'
 import NegroniImage from '../images/Negroni.jpeg'
+import { useRouter } from 'next/router'
+
 
 
 
 const Home = () => {
+  const router = useRouter()
 
   return(
     
     <div className='home-page'>
-     {/* <img className='main-img' alt = 'main'/> */}
-
      <Segment  vertical textAlign='center'>
-       {/* <Container text> */}
        <h1>ASSEMBLY</h1>
        <p><i>noun</i></p>
        <p>A group of people gathered together in one place for a common purpose.</p>
-       {/* </Container> */}
+    
      </Segment>
-      {/* <Container> */}
+      <Button class="ui primary button" onClick={() => router.push('/cocktailKitsCards')} >
+        Cocktail Kits
+      </Button>
       <Segment  vertical textAlign='center'>
       <Image
               fluid
@@ -26,10 +29,7 @@ const Home = () => {
               alt="negroni"
       />
                
-          </Segment>
-        {/* </Container> */}
-     
-       
+      </Segment>
     </div>
   )
 }
